@@ -28,6 +28,7 @@
     "svelte-fa": "^2.4.0",
     "svelte-grid": "^5.1.1",
     "svelte-particles": "^1.11.0",
-    "svelte-routing": "^1.6.0"
+    "svelte-routing": "^1.6.0",
+    "svelte-split-pane": "^0.1.2"
   }
 }

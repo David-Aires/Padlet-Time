@@ -34,9 +34,7 @@ import { createEventDispatcher } from 'svelte';
 const dispatch = createEventDispatcher();
 
 function add() {
-        dispatch('message', {
-            text: 'Hello!'
-        });
+        dispatch('create')
 }
 
 export let show = false;
@@ -60,7 +58,7 @@ export let show = false;
         height: 4em;
         display: block;
         position: relative;
-        background-color: white;
+        background-color:#080808;
         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
         0 2px 10px 0 rgba(0, 0, 0, 0.12);
         text-align: center;
