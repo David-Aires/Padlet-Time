@@ -1,79 +1,146 @@
 <script>
+    import Particles from "svelte-particles";
+    import {particlesConfig} from "../effects/particles.svelte";
     import Fa from 'svelte-fa';
-    import { faClone} from '@fortawesome/free-solid-svg-icons';
+    import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
+    import room from "../stores/Room.js";
+
+    let showInputCreate = false;
+    let showInputEnter = false;
+    let value = undefined;
 </script>
 
-
-<main>
-    <div id="app-container">
-        <header>
-            <h1>
-                <Fa icon={faClone} size="sm" />
-        Padlet Time
-            </h1>
-        </header>
-        <div class=container>
-            <div class="wrapper">
-                <button>Rejoindre une salle</button>
-                <button>Crée une salle</button>
-                </div>
-        </div>
-    </div>
-</main>
-
-
 <style>
-    :global(body), :global(html), :global(#root) {
-        height: 100%;
-        width: 100%;
-        display: block;
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: sans-serif;
+        height: 100vh;
         margin: 0;
         padding: 0;
-        color: white;
-        background-color: #080808;
-        font-family: "Montserrat", sans-serif;
-  }
-
-    #app-container {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-  }
-
-  .container {
-    flex: 1;
-    overflow: hidden;
-    display: block;
-    transition: background-color 0.5s;
-  }
-
-  div.wrapper {
-    width: 80%;
-    height: 800px;
-    margin: auto;
-    margin-top: 30px;
-  }
-
- left, right {
-    width: 100%;
-    height: 100%;
-    display: block;
-    align-content: center;
-    background-color: rgba(0, 0, 0, 0.98);
-}
-
-   /* HEADER */
+    }
 
     header {
-        height: 4em;
-        display: block;
-        position: relative;
-        background-color:#484848;
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-        0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        display: none;
+    }
+
+    .box {
+        background-color: rgba(0, 0, 0, 0.98);
+        border-radius: 10px;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.98);
+        margin: auto auto;
+        padding: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .box h2 {
+        margin: 0 0 30px 0;
+        padding: 0;
+        color: #fff;
         text-align: center;
-        flex: 0 0 4em;
-        transition: color .5s, background-color .5s;
-  }
+    }
+
+    .box .inputBox button {
+        font-family: sans-serif;
+        background: #03a9f4;
+        font-size: 11px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 600;
+        padding: 10px 20px;
+        letter-spacing: 2px;
+        outline: none;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 2px 10px 2px 0;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .box .inputBox input {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+        outline: none;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .box input[type="submit"], .box button[type="submit"], a.button {
+        font-family: sans-serif;
+        background: #03a9f4;
+        font-size: 11px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 600;
+        padding: 10px 20px;
+        letter-spacing: 2px;
+        outline: none;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 2px 10px 2px 0;
+        display: inline-block;
+    }
+
+    .box input[type="submit"]:hover, .box button[type="submit"]:hover, a.button:hover {
+        opacity: 0.8;
+    }
+
+    .box .inputBox label {
+        color: #fff;
+    }
+
+    .back {
+        cursor: pointer;
+        background-color: rgba(0,0,0,0.0);
+        border-color: rgba(0,0,0,0.0);
+    }
+
+    
 </style>
+
+<Particles id="tsparticles" options="{particlesConfig}"/>
+<main class="box">
+    {#if showInputCreate}
+    <button class="back" on:click={() => (showInputCreate = false)}><Fa icon={faArrowAltCircleLeft} size="2x"/></button>
+        <div class="inputBox">
+            <label for="userName">Nom de la salle</label>
+            <input type="text" name="name" id="name" placeholder="type room name" bind:value={value} required/>
+        </div>
+        <div style="align-items: center;">
+            <button type="submit" name="" style="float: left;" on:click={room.create}>Valider</button>
+        </div>
+    {:else if showInputEnter}
+    <button class="back" on:click={() => (showInputEnter = false)}><Fa icon={faArrowAltCircleLeft} size="2x"/></button>
+        <div class="inputBox">
+            <label for="userName">Nom de la salle</label>
+            <input type="text" name="name" id="name" placeholder="type room name" bind:value={value} required/>
+        </div>
+        <div style="align-items: center;">
+            <button type="submit" name="" style="float: left;" on:click={room.join(parseInt(value))}>Entrer</button>
+        </div>
+    {:else}
+    <h2>Choix d'action</h2>
+        <div class="inputBox">
+            <button on:click={() => (showInputEnter = true)}>Accéder à une salle</button>      
+        </div>
+        <div class="inputBox">
+            <button on:click={() => (showInputCreate = true)}>crée une salle</button>
+        </div>
+    {/if}
+</main>
+<footer>
+</footer>

@@ -13,12 +13,12 @@
       position: absolute;
       z-index: 10;
       text-align: center;
-      top: 15px;
-      left: 0;
+      top: 30px;
+      left: 65%;
       right: 0;
     }
     .toast .message {
-      color: #000;
+      color: white;
       display: inline-block;
       cursor: pointer;
       padding: 0.3rem;

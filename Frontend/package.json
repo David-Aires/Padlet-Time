@@ -25,6 +25,7 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "sirv-cli": "^1.0.12",
+    "svelte-drag": "^2.3.2",
     "svelte-fa": "^2.4.0",
     "svelte-grid": "^5.1.1",
     "svelte-particles": "^1.11.0",

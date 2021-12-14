@@ -21,6 +21,8 @@
     flex: 1;
     overflow: hidden;
     display: flex;
+    height: 100%;
+    width: 100%;
     transition: background-color 0.5s;
   }
 
@@ -106,6 +108,15 @@
         opacity: 1;
         visibility: visible;
     }
+
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    grid-column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
 </style>
     
 <main>
@@ -122,40 +133,28 @@
                 </div>
             </nav>
         </header>
-        <div class=container>
-            <Grid bind:items={items} gap={[gapX, gapY]} rowHeight={100} let:item let:dataItem {cols} fillSpace=true>
-                <div class=widget >
-                    <span on:pointerdown={e => e.stopPropagation()}
-                        on:click={dataItem.delete}
-                        class=remove
-                        >
-                        ✕
-                    </span>
-                    {#if  dataItem.video}
-                      <p>video</p>
-                    {:else if dataItem.photo}
-                      <p>photo</p>
-                    {:else}
-                    <TextSpace
-                    bind:value= {text}
-                    on:keyup={dataItem.update} />
-                    {/if}
-                </div>
-            </Grid>
-            <Sidebar bind:show={sidebar_show} on:create={room.cards.add} />
+        <div class="container">
+          <div class="grid">
+            {#if $room.cards.length > 0}
+              {#each $room.cards as card}
+                <Postit bind:text={card.body} bind:id={card.id} bind:card={card}/>
+              {/each}
+            {:else}
+              <p>Add some post-its</p>
+            {/if}
         </div>
-    </div>
+        <Sidebar bind:show={sidebar_show} on:create={room.cards.add} />
+      </div>
 </main>
     
 <script>
-    import Grid from "svelte-grid";
-    import gridHelp from "svelte-grid/build/helper/index.mjs";
     import Fa from 'svelte-fa';
-    import { faClone, faPlus } from '@fortawesome/free-solid-svg-icons';
+    import {faClone, faPlus } from '@fortawesome/free-solid-svg-icons';
     import Sidebar from '../components/Sidebar.svelte';
-    import TextSpace from '../components/TextSpace.svelte';
-    import room from "../stores/room.js";
+    import Postit from "../components/Postit.svelte"
+    import room from "../stores/Room.js";
     import { onMount, onDestroy } from "svelte";
+    import {navigate} from "svelte-routing";
 
 
     onMount(() => {
@@ -173,48 +172,5 @@
       }
     });
 
-    const COLS = 6;
-
-  $room.cards.forEach(card => {
-        text = card.body
-        let newItem = {
-        6: gridHelp.item({
-          w: 2,
-          h: 2,
-          x: 0,
-          y: 0,
-        }),
-        id: id(),
-        video: false,
-        photo: false,
-        update: () => room.cards.update(card),
-        delete: () => room.cards.delete(card.id)
-      };
-
-    let findOutPosition = gridHelp.findSpace(newItem, items, COLS);
-
-    newItem = {
-      ...newItem,
-      [COLS]: {
-        ...newItem[COLS],
-        ...findOutPosition,
-      },
-    };
-
-    items = [...items, ...[newItem]];	
-    });
-   
     let sidebar_show = false;
-    let text = "";
-    const id = () => "_" + Math.random().toString(36).substr(2, 9);
-    
-    let gapX = 20;
-    let gapY = 20;
-    
-    let items = [];
-    
-    const cols = [
-      [ 1100, 6 ],
-    ];
-
 </script>

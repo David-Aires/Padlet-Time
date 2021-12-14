@@ -4,9 +4,16 @@
     import Board from "./routes/Board.svelte";
     import Toast from "./components/Toast.svelte";
     import Choice from "./routes/Choice.svelte";
-    import { Router,Route} from "svelte-routing";
+    import room from "./stores/Room.js"
+    import { Router,Route, navigate} from "svelte-routing";
 
     export let url = "";
+
+    let id = parseInt(location.href.split("/").pop());
+    $: !Number.isNaN(id) && room.join(id);
+    $: $room && $room.id
+        ? navigate($room.id, { replace: true })
+        : navigate(location.href.split("/").pop(), { replace: true });
 </script>
 
 

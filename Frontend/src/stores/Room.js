@@ -59,7 +59,7 @@ wsStore.subscribe((ws) => {
   }
 
   socket.onerror = () => {
-    toastStore.set(`Connection lost, attempting to reconnect to Mõla`);
+    toastStore.set(`Connection lost, attempting to reconnect`);
     console.warn(`Connection lost, entering in room n°${roomId}...`);
     wsStore.set(new WebSocket('ws://localhost:9000/ws'));
     joinRoom(roomId);
