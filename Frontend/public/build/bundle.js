@@ -16749,7 +16749,7 @@ var app = (function () {
     		},
     		h: function hydrate() {
     			attr_dev(div, "id", /*id*/ ctx[0]);
-    			add_location(div, file$a, 53, 0, 1201);
+    			add_location(div, file$a, 53, 0, 1254);
     		},
     		m: function mount(target, anchor) {
     			insert_hydration_dev(target, div, anchor);
@@ -17124,48 +17124,48 @@ var app = (function () {
     		},
     		h: function hydrate() {
     			attr_dev(h2, "class", "svelte-jggw3");
-    			add_location(h2, file$9, 82, 4, 1822);
+    			add_location(h2, file$9, 82, 4, 1904);
     			attr_dev(label0, "for", "userName");
     			attr_dev(label0, "class", "svelte-jggw3");
-    			add_location(label0, file$9, 85, 12, 1891);
+    			add_location(label0, file$9, 85, 12, 1976);
     			attr_dev(input0, "type", "text");
     			attr_dev(input0, "name", "userName");
     			attr_dev(input0, "id", "userName");
     			attr_dev(input0, "placeholder", "type your username");
     			input0.required = true;
     			attr_dev(input0, "class", "svelte-jggw3");
-    			add_location(input0, file$9, 86, 12, 1942);
+    			add_location(input0, file$9, 86, 12, 2028);
     			attr_dev(div0, "class", "inputBox svelte-jggw3");
-    			add_location(div0, file$9, 84, 8, 1856);
+    			add_location(div0, file$9, 84, 8, 1940);
     			attr_dev(label1, "for", "userPassword");
     			attr_dev(label1, "class", "svelte-jggw3");
-    			add_location(label1, file$9, 89, 12, 2093);
+    			add_location(label1, file$9, 89, 12, 2182);
     			attr_dev(input1, "type", "password");
     			attr_dev(input1, "name", "userPassword");
     			attr_dev(input1, "id", "userPassword");
     			attr_dev(input1, "placeholder", "type your password");
     			input1.required = true;
     			attr_dev(input1, "class", "svelte-jggw3");
-    			add_location(input1, file$9, 90, 12, 2148);
+    			add_location(input1, file$9, 90, 12, 2238);
     			attr_dev(div1, "class", "inputBox svelte-jggw3");
-    			add_location(div1, file$9, 88, 8, 2058);
+    			add_location(div1, file$9, 88, 8, 2146);
     			attr_dev(button, "type", "submit");
     			attr_dev(button, "name", "");
     			set_style(button, "float", "left");
     			attr_dev(button, "class", "svelte-jggw3");
-    			add_location(button, file$9, 94, 12, 2313);
+    			add_location(button, file$9, 94, 12, 2407);
     			attr_dev(a, "class", "button svelte-jggw3");
     			attr_dev(a, "href", "/register");
     			set_style(a, "float", "left");
-    			add_location(a, file$9, 95, 12, 2392);
+    			add_location(a, file$9, 95, 12, 2487);
     			attr_dev(div2, "class", "svelte-jggw3");
-    			add_location(div2, file$9, 93, 8, 2295);
+    			add_location(div2, file$9, 93, 8, 2388);
     			attr_dev(form, "class", "svelte-jggw3");
-    			add_location(form, file$9, 83, 4, 1841);
+    			add_location(form, file$9, 83, 4, 1924);
     			attr_dev(main, "class", "box svelte-jggw3");
-    			add_location(main, file$9, 81, 0, 1799);
+    			add_location(main, file$9, 81, 0, 1880);
     			attr_dev(footer, "class", "svelte-jggw3");
-    			add_location(footer, file$9, 99, 0, 2496);
+    			add_location(footer, file$9, 99, 0, 2595);
     		},
     		m: function mount(target, anchor) {
     			mount_component(particles, target, anchor);
@@ -17428,58 +17428,58 @@ var app = (function () {
     		},
     		h: function hydrate() {
     			attr_dev(h2, "class", "svelte-1hranv7");
-    			add_location(h2, file$8, 82, 4, 1820);
+    			add_location(h2, file$8, 82, 4, 1902);
     			attr_dev(label0, "for", "userName");
     			attr_dev(label0, "class", "svelte-1hranv7");
-    			add_location(label0, file$8, 85, 12, 1892);
+    			add_location(label0, file$8, 85, 12, 1977);
     			attr_dev(input0, "type", "text");
     			attr_dev(input0, "name", "userName");
     			attr_dev(input0, "id", "userName");
     			attr_dev(input0, "placeholder", "type your username");
     			input0.required = true;
     			attr_dev(input0, "class", "svelte-1hranv7");
-    			add_location(input0, file$8, 86, 12, 1943);
+    			add_location(input0, file$8, 86, 12, 2029);
     			attr_dev(div0, "class", "inputBox svelte-1hranv7");
-    			add_location(div0, file$8, 84, 8, 1857);
+    			add_location(div0, file$8, 84, 8, 1941);
     			attr_dev(label1, "for", "userPassword");
     			attr_dev(label1, "class", "svelte-1hranv7");
-    			add_location(label1, file$8, 89, 12, 2094);
+    			add_location(label1, file$8, 89, 12, 2183);
     			attr_dev(input1, "type", "password");
     			attr_dev(input1, "name", "userPassword");
     			attr_dev(input1, "id", "userPassword");
     			attr_dev(input1, "placeholder", "type your password");
     			input1.required = true;
     			attr_dev(input1, "class", "svelte-1hranv7");
-    			add_location(input1, file$8, 90, 12, 2149);
+    			add_location(input1, file$8, 90, 12, 2239);
     			attr_dev(div1, "class", "inputBox svelte-1hranv7");
-    			add_location(div1, file$8, 88, 8, 2059);
+    			add_location(div1, file$8, 88, 8, 2147);
     			attr_dev(label2, "for", "userConfirmPassword");
     			attr_dev(label2, "class", "svelte-1hranv7");
-    			add_location(label2, file$8, 94, 12, 2331);
+    			add_location(label2, file$8, 94, 12, 2425);
     			attr_dev(input2, "type", "password");
     			attr_dev(input2, "name", "userPassword");
     			attr_dev(input2, "id", "userConfirmPassword");
     			attr_dev(input2, "placeholder", "confirm your password");
     			input2.required = true;
     			attr_dev(input2, "class", "svelte-1hranv7");
-    			add_location(input2, file$8, 95, 12, 2401);
+    			add_location(input2, file$8, 95, 12, 2496);
     			attr_dev(div2, "class", "inputBox svelte-1hranv7");
-    			add_location(div2, file$8, 93, 8, 2296);
+    			add_location(div2, file$8, 93, 8, 2389);
     			attr_dev(button, "type", "submit");
     			attr_dev(button, "name", "");
     			set_style(button, "float", "left");
     			attr_dev(button, "class", "svelte-1hranv7");
-    			add_location(button, file$8, 98, 8, 2558);
+    			add_location(button, file$8, 98, 8, 2656);
     			attr_dev(a, "class", "button svelte-1hranv7");
     			attr_dev(a, "href", "/");
     			set_style(a, "float", "left");
-    			add_location(a, file$8, 99, 8, 2633);
+    			add_location(a, file$8, 99, 8, 2732);
     			attr_dev(form, "class", "svelte-1hranv7");
-    			add_location(form, file$8, 83, 4, 1842);
+    			add_location(form, file$8, 83, 4, 1925);
     			attr_dev(main, "class", "box svelte-1hranv7");
-    			add_location(main, file$8, 81, 0, 1797);
+    			add_location(main, file$8, 81, 0, 1878);
     			attr_dev(footer, "class", "svelte-1hranv7");
-    			add_location(footer, file$8, 102, 0, 2711);
+    			add_location(footer, file$8, 102, 0, 2813);
     		},
     		m: function mount(target, anchor) {
     			mount_component(particles, target, anchor);
@@ -17730,10 +17730,10 @@ var app = (function () {
     		},
     		h: function hydrate() {
     			attr_dev(g0, "transform", /*transform*/ ctx[10]);
-    			add_location(g0, file$7, 91, 6, 1469);
+    			add_location(g0, file$7, 91, 6, 1560);
     			attr_dev(g1, "transform", g1_transform_value = `translate(${/*i*/ ctx[7][0] / 2} ${/*i*/ ctx[7][1] / 2})`);
     			attr_dev(g1, "transform-origin", g1_transform_origin_value = `${/*i*/ ctx[7][0] / 4} 0`);
-    			add_location(g1, file$7, 87, 4, 1358);
+    			add_location(g1, file$7, 87, 4, 1445);
     			attr_dev(svg, "id", /*id*/ ctx[0]);
     			attr_dev(svg, "class", svg_class_value = "" + (null_to_empty(/*c*/ ctx[8]) + " svelte-1cj2gr0"));
     			attr_dev(svg, "style", /*s*/ ctx[9]);
@@ -17741,7 +17741,7 @@ var app = (function () {
     			attr_dev(svg, "aria-hidden", "true");
     			attr_dev(svg, "role", "img");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
-    			add_location(svg, file$7, 78, 2, 1195);
+    			add_location(svg, file$7, 78, 2, 1273);
     		},
     		m: function mount(target, anchor) {
     			insert_hydration_dev(target, svg, anchor);
@@ -17855,7 +17855,7 @@ var app = (function () {
     			: /*secondaryOpacity*/ ctx[5]);
 
     			attr_dev(path0, "transform", path0_transform_value = `translate(${/*i*/ ctx[7][0] / -2} ${/*i*/ ctx[7][1] / -2})`);
-    			add_location(path0, file$7, 99, 10, 1721);
+    			add_location(path0, file$7, 99, 10, 1820);
     			attr_dev(path1, "d", path1_d_value = /*i*/ ctx[7][4][1]);
     			attr_dev(path1, "fill", path1_fill_value = /*primaryColor*/ ctx[2] || /*color*/ ctx[1] || 'currentColor');
 
@@ -17864,7 +17864,7 @@ var app = (function () {
     			: /*primaryOpacity*/ ctx[4]);
 
     			attr_dev(path1, "transform", path1_transform_value = `translate(${/*i*/ ctx[7][0] / -2} ${/*i*/ ctx[7][1] / -2})`);
-    			add_location(path1, file$7, 105, 10, 1982);
+    			add_location(path1, file$7, 105, 10, 2087);
     		},
     		m: function mount(target, anchor) {
     			insert_hydration_dev(target, path0, anchor);
@@ -17945,7 +17945,7 @@ var app = (function () {
     			attr_dev(path, "d", path_d_value = /*i*/ ctx[7][4]);
     			attr_dev(path, "fill", path_fill_value = /*color*/ ctx[1] || /*primaryColor*/ ctx[2] || 'currentColor');
     			attr_dev(path, "transform", path_transform_value = `translate(${/*i*/ ctx[7][0] / -2} ${/*i*/ ctx[7][1] / -2})`);
-    			add_location(path, file$7, 93, 10, 1533);
+    			add_location(path, file$7, 93, 10, 1626);
     		},
     		m: function mount(target, anchor) {
     			insert_hydration_dev(target, path, anchor);
