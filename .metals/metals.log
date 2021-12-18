@@ -16,3 +16,83 @@
 [0m2021.12.16 18:06:11 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
 [0m2021.12.16 18:06:14 INFO  time: code lens generation in 5.86s[0m
 [0m2021.12.16 18:06:14 INFO  time: code lens generation in 5.86s[0m
+[0m2021.12.16 18:30:52 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.16 18:31:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\components\Card.scala[0m
+[0m2021.12.16 18:31:18 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.16 19:58:47 INFO  shutting down Metals[0m
+[0m2021.12.18 12:11:03 INFO  Started: Metals version 0.10.9 in workspace 'D:\Project\Padlet-Time' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.18 12:11:04 INFO  time: initialize in 1.07s[0m
+[0m2021.12.18 12:11:05 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.18 12:11:05 WARN  no build tool detected in workspace 'D:\Project\Padlet-Time'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.12.18 12:11:05 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 12:11:09 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.18 12:11:11 INFO  time: code lens generation in 2.05s[0m
+[0m2021.12.18 12:11:11 INFO  time: code lens generation in 5.42s[0m
+[0m2021.12.18 12:11:11 INFO  time: code lens generation in 1.53s[0m
+[0m2021.12.18 12:11:11 INFO  time: code lens generation in 2.36s[0m
+[0m2021.12.18 12:11:13 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 12:11:47 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 12:14:15 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 12:17:46 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 12:19:34 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 12:25:32 WARN  no build target for: D:\Project\Padlet-Time\Server\.g8\form\app\controllers\$model__Camel$Controller.scala[0m
+[0m2021.12.18 12:26:00 WARN  no build target for: D:\Project\Padlet-Time\Server\test\controllers\HomeControllerSpec.scala[0m
+[0m2021.12.18 12:29:45 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 12:31:08 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 12:32:06 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 12:32:21 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 12:34:30 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 12:39:32 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.18 13:16:02 INFO  shutting down Metals[0m
+[0m2021.12.18 13:19:45 INFO  Started: Metals version 0.10.9 in workspace 'D:\Project\Padlet-Time' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.18 13:19:46 INFO  time: initialize in 1.1s[0m
+[0m2021.12.18 13:19:46 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.18 13:19:46 WARN  no build tool detected in workspace 'D:\Project\Padlet-Time'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.12.18 13:33:55 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.18 13:33:57 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.18 13:33:59 INFO  time: code lens generation in 3.62s[0m
+[0m2021.12.18 13:33:59 INFO  time: code lens generation in 2.24s[0m
+[0m2021.12.18 13:34:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.18 13:34:06 WARN  no build target for: D:\Project\Padlet-Time\Server\app\components\Card.scala[0m
+[0m2021.12.18 13:34:11 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.18 13:34:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.18 13:36:21 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.18 13:37:21 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.18 13:41:46 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.18 13:44:54 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.18 13:45:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.18 13:46:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.18 13:46:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.18 13:47:31 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.18 13:47:46 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.18 13:48:47 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.18 13:50:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.18 13:50:47 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.18 13:51:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.18 13:51:33 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.18 13:51:46 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.18 13:54:42 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.18 13:56:28 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.18 13:56:34 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.18 13:57:12 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.18 13:57:27 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.18 13:59:37 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.18 14:00:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.18 14:04:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.18 14:04:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.18 14:04:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.18 14:04:42 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.18 14:05:18 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.18 14:05:41 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.18 14:05:46 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.18 14:05:55 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.18 14:05:58 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.18 14:06:37 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.18 14:07:42 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.18 14:08:24 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.18 14:09:46 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.18 14:10:33 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.18 14:13:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.18 14:14:09 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.18 14:15:41 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.18 14:16:34 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m

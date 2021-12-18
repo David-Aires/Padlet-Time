@@ -1,25 +1,17 @@
-CREATE TABLE tokens
-(
-    id              INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    hash            VARCHAR(32)  NOT NULL,
-    creation_date   TIMESTAMP    NOT NULL DEFAULT NOW(),
-    expiration_date TIMESTAMP    NULL,
+CREATE DATABASE padlet;
 
-    PRIMARY KEY (id),
-
-    CONSTRAINT unique_hash UNIQUE (hash)
-);
+USE padlet
 
 CREATE TABLE users
 (
     id               INT UNSIGNED NOT NULL AUTO_INCREMENT,
     username         VARCHAR(128) NOT NULL,
     password         VARCHAR(128) NOT NULL,
-    refresh_token_id INT UNSIGNED NULL,
+    token            VARCHAR(32)  NOT NULL,
 
     PRIMARY KEY (id),
 
-    FOREIGN KEY (refresh_token_id) REFERENCES tokens (id),
+    CONSTRAINT unique_hash UNIQUE (token),
 
     CONSTRAINT unique_username UNIQUE (username)
 );
@@ -45,6 +37,17 @@ CREATE TABLE medias
     content    BLOB         NULL,
 
     PRIMARY KEY (id),
-    FOREIGN KEY (sharea_id) REFERENCES shareas (id),
+    FOREIGN KEY (room_id) REFERENCES room (id),
     FOREIGN KEY (creator_id) REFERENCES users (id)
+);
+
+CREATE TABLE links
+(
+    room_id INT UNSIGNED NOT NULL,
+    user_id INT UNSIGNED NOT NULL,
+
+    PRIMARY KEY (room_id,user_id),
+    FOREIGN KEY (room_id) REFERENCES room (id),
+    FOREIGN KEY (user_id) REFERENCES users (id)
+
 );

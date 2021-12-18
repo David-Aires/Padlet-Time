@@ -11,3 +11,5 @@ target
 /RUNNING_PID
 .DS_Store
 .idea/
+
+.metals/
