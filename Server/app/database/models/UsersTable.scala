@@ -1,4 +1,4 @@
-package models
+package database.models
 
 import definition.UserId
 import slick.jdbc.MySQLProfile.api._

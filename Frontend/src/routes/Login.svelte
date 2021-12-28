@@ -1,6 +1,10 @@
 <script>
     import Particles from "svelte-particles";
     import {particlesConfig} from "../effects/particles.svelte";
+    import room from "../stores/Room.js";
+
+    let valueUsername = undefined;
+    let valuePassword = undefined;
 </script>
 
 <style>
@@ -81,21 +85,20 @@
 <Particles id="tsparticles" options="{particlesConfig}"/>
 <main class="box">
     <h2>Login</h2>
-    <form>
         <div class="inputBox">
             <label for="userName">Username</label>
-            <input type="text" name="userName" id="userName" placeholder="type your username" required/>
+            <input type="text" name="userName" id="userName" placeholder="type your username" bind:value={valueUsername} required/>
         </div>
         <div class="inputBox">
             <label for="userPassword">Password</label>
             <input type="password" name="userPassword" id="userPassword" placeholder="type your password"
+                   bind:value={valuePassword}
                    required/>
         </div>
         <div>
-            <button type="submit" name="" style="float: left;">Submit</button>
+            <button type="submit" name="" style="float: left;" on:click={room.login(valueUsername,valuePassword)}>Submit</button>
             <a class="button" href="/register" style="float: left;">Register</a>
         </div>
-    </form>
 </main>
 <footer>
 </footer>

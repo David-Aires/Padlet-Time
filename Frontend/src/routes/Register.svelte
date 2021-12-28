@@ -1,6 +1,24 @@
 <script>
     import Particles from "svelte-particles";
     import {particlesConfig} from "../effects/particles.svelte";
+    import room from "../stores/Room.js";
+
+    let valueUsername = undefined;
+    let valuePassword = undefined;
+    let valueConfirmPassword = undefined;
+    let failure = false;
+
+    const check = () => {
+        if(valuePassword == valueConfirmPassword) {
+            room.register(valueUsername,valuePassword)
+        } else {
+            valueConfirmPassword = "";
+            valuePassword = "";
+            valueUsername = "";
+            failure = true;
+        }
+    }
+
 </script>
 
 <style>
@@ -76,29 +94,36 @@
     .box input[type="submit"]:hover, .box button[type="submit"]:hover, a.button:hover {
         opacity: 0.8;
     }
+
+    .failure {
+        color: red;
+    }
 </style>
 
 <Particles id="tsparticles" options="{particlesConfig}"/>
 <main class="box">
     <h2>Register</h2>
-    <form>
         <div class="inputBox">
             <label for="userName">Username</label>
-            <input type="text" name="userName" id="userName" placeholder="type your username" required/>
+            <input type="text" name="userName" id="userName" placeholder="type your username" bind:value={valueUsername} required/>
         </div>
         <div class="inputBox">
             <label for="userPassword">Password</label>
             <input type="password" name="userPassword" id="userPassword" placeholder="type your password"
+                   bind:value={valuePassword}
                    required/>
         </div>
         <div class="inputBox">
             <label for="userConfirmPassword">Confirm Password</label>
             <input type="password" name="userPassword" id="userConfirmPassword" placeholder="confirm your password"
+                   bind:value={valueConfirmPassword}
                    required/>
         </div>
-        <button type="submit" name="" style="float: left;">Submit</button>
+        <button type="submit" name="" style="float: left;" on:click={check}>Submit</button>
+        {#if failure}
+            <p class="failure">Les mots de passes ne correspondent pas!</p>
+        {/if}
         <a class="button" href="/" style="float: left;">Login</a>
-    </form>
 </main>
 <footer>
 </footer>

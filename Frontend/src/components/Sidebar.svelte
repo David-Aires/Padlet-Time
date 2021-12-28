@@ -15,7 +15,7 @@
       <Fa icon={faPhotoVideo} size="sm"/>
       <span>Ajouter media</span>
     </button>
-    <button>
+    <button on:click={showDialog}>
       <Fa icon={faUserPlus} size="sm"/>
       <span>Ajouter contributeur</span>
     </button>
@@ -30,6 +30,14 @@ import { fly } from 'svelte/transition';
 import Fa from 'svelte-fa';
 import { faCogs, faStickyNote, faPhotoVideo, faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import { createEventDispatcher } from 'svelte';
+import { getContext } from 'svelte';
+import Dialog from './Dialog.svelte';
+
+  const { open } = getContext('simple-modal');
+
+  const showDialog = () => {
+    open(Dialog, { message: "Add contributor", hasForm:true});
+  };
 
 const dispatch = createEventDispatcher();
 

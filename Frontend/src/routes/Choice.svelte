@@ -121,7 +121,7 @@
             <input type="text" name="name" id="name" placeholder="type room name" bind:value={value} required/>
         </div>
         <div style="align-items: center;">
-            <button type="submit" name="" style="float: left;" on:click={room.create}>Valider</button>
+            <button type="submit" name="" style="float: left;" on:click={room.create(value)}>Valider</button>
         </div>
     {:else if showInputEnter}
     <button class="back" on:click={() => (showInputEnter = false)}><Fa icon={faArrowAltCircleLeft} size="2x"/></button>
@@ -130,7 +130,7 @@
             <input type="text" name="name" id="name" placeholder="type room name" bind:value={value} required/>
         </div>
         <div style="align-items: center;">
-            <button type="submit" name="" style="float: left;" on:click={room.join(parseInt(value))}>Entrer</button>
+            <button type="submit" name="" style="float: left;" on:click={room.join(value)}>Entrer</button>
         </div>
     {:else}
     <h2>Choix d'action</h2>

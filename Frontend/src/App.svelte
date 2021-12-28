@@ -4,20 +4,23 @@
     import Board from "./routes/Board.svelte";
     import Toast from "./components/Toast.svelte";
     import Choice from "./routes/Choice.svelte";
-    import room from "./stores/Room.js"
+    import room from "./stores/Room.js";
+    import { userStore }  from "./stores/Auth.js";
     import { Router,Route, navigate} from "svelte-routing";
+    import Modal from 'svelte-simple-modal';
 
     export let url = "";
 
-    let id = parseInt(location.href.split("/").pop());
-    $: !Number.isNaN(id) && room.join(id);
+    let id = location.href.split("/").pop();
+    $: (id != "choice" && id != "register" && id != "login" && id != "" && $userStore.token != '')? room.join(id): '';
     $: $room && $room.id
         ? navigate($room.id, { replace: true })
-        : navigate(location.href.split("/").pop(), { replace: true });
+        : ($userStore.token != '') ?  navigate("choice", { replace: true }) : (id=="register")?navigate("register", { replace: true }):navigate("/", { replace: true });
 </script>
 
 
 <Toast/>
+<Modal>
 <Router url="{url}">
     <div>
         <Route path="/"><Login /></Route>
@@ -26,3 +29,4 @@
         <Route><Board /></Route>
     </div>
   </Router>
+</Modal>

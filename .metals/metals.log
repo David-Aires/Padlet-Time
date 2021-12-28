@@ -96,3 +96,847 @@
 [0m2021.12.18 14:14:09 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
 [0m2021.12.18 14:15:41 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
 [0m2021.12.18 14:16:34 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.18 14:24:13 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.18 14:24:51 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.19 10:55:04 INFO  Started: Metals version 0.10.9 in workspace 'D:\Project\Padlet-Time' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.19 10:55:06 INFO  time: initialize in 1.64s[0m
+[0m2021.12.19 10:55:10 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.19 10:55:10 WARN  no build tool detected in workspace 'D:\Project\Padlet-Time'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.12.19 10:55:11 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.19 10:55:18 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.19 10:55:20 INFO  time: code lens generation in 9.11s[0m
+[0m2021.12.19 11:01:09 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.19 11:04:52 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.19 11:04:56 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 11:05:19 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 11:12:55 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.19 11:12:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.19 11:13:04 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.19 11:13:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.19 11:13:40 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 11:13:55 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 11:14:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.19 11:17:02 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.19 11:19:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.19 11:19:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.19 11:39:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.19 11:43:16 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.19 11:44:46 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.19 11:45:36 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 11:45:52 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 11:46:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.19 11:46:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.19 11:48:29 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.19 11:50:28 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.19 11:50:43 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.19 11:50:49 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.19 11:50:52 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.19 11:50:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.19 11:51:02 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.19 11:51:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.19 11:51:18 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.19 11:51:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.19 11:51:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.19 11:52:11 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.19 11:59:14 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.19 12:00:18 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.19 12:00:19 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 12:00:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 12:01:22 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.19 12:01:26 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.19 12:01:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.19 12:01:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.19 12:01:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 12:01:49 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 12:01:50 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 12:01:52 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.19 12:01:55 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.19 12:01:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+Dec 19, 2021 12:01:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2420
+[0m2021.12.19 12:02:00 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.19 12:02:02 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.19 12:02:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.19 12:02:07 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.19 12:02:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.19 12:02:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.19 12:02:27 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.19 12:02:33 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.19 12:02:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.19 12:03:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.19 12:03:03 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.19 12:05:04 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.19 12:05:07 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.19 12:05:59 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.19 12:06:22 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.19 12:06:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.19 12:07:58 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\config\Config.scala[0m
+[0m2021.12.19 12:08:20 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\config\Config.scala[0m
+[0m2021.12.19 12:08:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\config\Config.scala[0m
+[0m2021.12.19 12:09:06 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\config\DatabaseConfig.scala[0m
+[0m2021.12.19 12:09:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\config\DatabaseConfig.scala[0m
+[0m2021.12.19 12:09:55 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\config\MigrationConfig.scala[0m
+[0m2021.12.19 12:10:14 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\config\MigrationConfig.scala[0m
+[0m2021.12.19 12:11:13 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.19 12:11:43 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.19 12:12:01 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.19 12:15:14 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.19 12:15:43 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.19 12:16:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.19 12:20:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.19 12:21:00 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.19 12:21:04 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.19 12:26:29 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.19 13:04:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.19 13:05:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.19 13:08:09 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.19 15:05:31 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.19 15:05:34 INFO  shutting down Metals[0m
+[0m2021.12.20 14:00:04 INFO  Started: Metals version 0.10.9 in workspace 'D:\Project\Padlet-Time' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.20 14:00:05 INFO  time: initialize in 1.33s[0m
+[0m2021.12.20 14:00:06 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.20 14:00:06 WARN  no build tool detected in workspace 'D:\Project\Padlet-Time'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.12.20 14:00:06 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:00:10 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.20 14:00:14 INFO  time: code lens generation in 6.82s[0m
+[0m2021.12.20 14:02:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.20 14:03:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.20 14:04:36 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.20 14:06:20 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.20 14:06:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:06:31 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.20 14:06:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.20 14:06:59 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.20 14:07:03 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.20 14:07:07 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.20 14:07:12 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:07:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\config\Config.scala[0m
+[0m2021.12.20 14:07:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\config\DatabaseConfig.scala[0m
+[0m2021.12.20 14:07:43 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.20 14:08:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.20 14:09:12 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.20 14:09:32 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.20 14:09:42 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.20 14:10:15 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.20 14:10:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.20 14:10:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.20 14:10:56 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.20 14:11:00 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.20 14:11:06 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.20 14:11:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.20 14:11:14 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.20 14:11:21 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.20 14:11:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.20 14:11:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.20 14:12:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.20 14:12:54 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.20 14:13:18 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.20 14:14:20 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.20 14:14:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.20 14:14:50 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.20 14:15:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.20 14:18:49 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.20 14:20:15 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.20 14:20:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.20 14:22:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.20 14:22:50 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.20 14:23:36 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.20 14:23:37 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:23:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.20 14:23:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.20 14:23:40 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:25:50 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:31:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:34:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:35:12 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:35:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:36:19 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:37:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:39:49 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:40:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:41:26 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:42:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.20 14:45:43 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:47:06 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:51:52 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\User.scala[0m
+[0m2021.12.20 14:54:08 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+Dec 20, 2021 2:54:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 111 is not a valid line number, allowed [0..108]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1554)
+	... 15 more
+
+Dec 20, 2021 2:54:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 111 is not a valid line number, allowed [0..108]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1554)
+	... 15 more
+
+[0m2021.12.20 14:55:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:55:40 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 14:56:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.20 15:01:12 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:01:49 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:03:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+Dec 20, 2021 3:03:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (out, manager)
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (out, manager)
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2152)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (out, manager)
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.internal$261(Trees.scala:474)
+	at scala.meta.Init$.apply(Trees.scala:473)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4817)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4796)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:4784)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4866)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4876)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4918)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4904)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$4(ScalametaParser.scala:3024)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:3024)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:915)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:925)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2989)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2987)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2971)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2951)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$12(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2401)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExpr(ScalametaParser.scala:3172)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$argumentExprsWithUsing$3(ScalametaParser.scala:3188)
+	at scala.meta.internal.parsers.ScalametaParser.partOrEllipsis$1(ScalametaParser.scala:1499)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:1502)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparated(ScalametaParser.scala:1511)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$argumentExprsWithUsing$1(ScalametaParser.scala:3188)
+	at scala.meta.internal.parsers.ScalametaParser.inParens(ScalametaParser.scala:783)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsWithUsing(ScalametaParser.scala:3179)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$4(ScalametaParser.scala:3128)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3128)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:3040)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:3040)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:915)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:925)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2989)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2987)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2971)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2951)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$12(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2401)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$2(ScalametaParser.scala:5209)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:5051)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:5209)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:3212)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$3(ScalametaParser.scala:3218)
+	at scala.meta.internal.parsers.ScalametaParser.indented(ScalametaParser.scala:815)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:3218)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:3211)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockExpr$1(ScalametaParser.scala:3208)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:3203)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2304)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4483)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4420)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:4354)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:4191)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:4176)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:5133)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:5127)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5070)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5143)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5123)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4958)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4958)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4966)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4951)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4936)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:4695)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:4687)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4562)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4544)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5092)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5080)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5070)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5079)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5302)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5308)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5308)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5269)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5252)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5251)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5257)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5321)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:121)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:118)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:90)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$parseTreesAndPublishDiags$2(MetalsLanguageServer.scala:282)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.12.20 15:04:00 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+[0m2021.12.20 15:04:59 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:08:12 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:08:56 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.20 15:11:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:29:08 WARN  no build target for: D:\Project\Padlet-Time\Server\app\pbkdf2\pbkdf2.scala[0m
+[0m2021.12.20 15:29:15 WARN  no build target for: D:\Project\Padlet-Time\Server\app\pbkdf2\pbkdf2.scala[0m
+[0m2021.12.20 15:31:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:32:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\pbkdf2\pbkdf2.scala[0m
+[0m2021.12.20 15:35:50 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:39:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:40:15 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:41:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:42:22 WARN  no build target for: D:\Project\Padlet-Time\Server\app\pbkdf2\pbkdf2.scala[0m
+[0m2021.12.20 15:42:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\pbkdf2\pbkdf2.scala[0m
+[0m2021.12.20 15:43:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:44:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:45:24 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:45:33 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+[0m2021.12.20 15:47:11 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.20 15:47:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.20 15:47:49 WARN  no build target for: D:\Project\Padlet-Time\Server\app\pbkdf2\pbkdf2.scala[0m
+[0m2021.12.20 15:49:08 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.20 15:49:17 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.20 15:49:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.20 15:51:33 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:54:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:54:42 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:55:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:58:22 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:59:04 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 15:59:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 16:01:08 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 16:01:43 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.20 16:59:55 INFO  shutting down Metals[0m
+[0m2021.12.21 10:32:02 INFO  Started: Metals version 0.10.9 in workspace 'D:\Project\Padlet-Time' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.21 10:32:03 INFO  time: initialize in 1.12s[0m
+[0m2021.12.21 10:32:04 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.21 10:32:04 WARN  no build tool detected in workspace 'D:\Project\Padlet-Time'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.12.21 10:32:04 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.21 10:32:08 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.21 10:32:10 INFO  time: code lens generation in 5.38s[0m
+[0m2021.12.21 10:36:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 10:37:27 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.21 10:37:56 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+[0m2021.12.21 10:38:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.21 10:39:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.21 10:40:43 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.21 10:41:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.21 10:46:20 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.21 10:50:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.21 10:54:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.21 14:01:14 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:02:06 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:14:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:15:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.21 14:20:20 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.21 14:20:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:21:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:24:42 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:25:21 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:28:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:34:29 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.21 14:34:58 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:40:33 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:40:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.21 14:41:18 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:42:53 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.21 14:44:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:45:00 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 14:53:00 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:08:34 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 15:10:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:11:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:13:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:14:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:17:08 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+Dec 21, 2021 3:24:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3292
+[0m2021.12.21 15:28:26 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:30:54 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:31:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:31:06 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:31:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:32:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.21 15:41:31 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:41:37 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 15:41:59 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Simulator.scala[0m
+[0m2021.12.21 16:17:28 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 16:19:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 16:19:59 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.21 20:31:14 INFO  shutting down Metals[0m
+[0m2021.12.24 13:27:15 INFO  Started: Metals version 0.10.9 in workspace 'D:\Project\Padlet-Time' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.24 13:27:16 INFO  time: initialize in 1.19s[0m
+[0m2021.12.24 13:27:16 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.24 13:27:16 WARN  no build tool detected in workspace 'D:\Project\Padlet-Time'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.12.24 13:27:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 13:27:21 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.24 13:27:24 INFO  time: code lens generation in 6.21s[0m
+Dec 24, 2021 1:27:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Dec 24, 2021 1:27:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.12.24 13:27:56 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.24 13:27:58 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 13:28:00 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+[0m2021.12.24 13:31:09 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 13:39:51 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.24 13:42:51 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 13:44:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 13:53:06 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 13:53:22 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 13:53:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 13:53:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 13:54:07 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.24 13:56:42 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 13:57:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 13:58:34 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:00:43 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:07:43 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:08:29 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 14:09:29 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.24 14:09:59 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.24 14:10:36 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.24 14:10:58 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\Definition.scala[0m
+[0m2021.12.24 14:13:16 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:13:34 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:17:28 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+Dec 24, 2021 2:18:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2347
+[0m2021.12.24 14:22:02 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:23:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:25:59 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:26:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:27:59 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:31:09 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:32:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 14:32:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 14:34:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:35:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:35:07 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:37:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:37:41 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:38:11 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:41:24 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:41:41 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:41:56 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:42:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:43:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:44:00 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:44:08 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:45:34 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 14:45:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:45:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:46:03 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:46:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:46:42 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:48:34 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 14:48:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 14:51:43 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 14:51:51 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 14:51:54 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:55:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:55:53 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 14:56:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 14:56:46 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+[0m2021.12.24 14:58:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 14:58:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 15:02:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.24 15:04:08 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:04:14 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 15:05:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 15:07:20 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:07:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:07:53 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 15:08:42 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:08:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:11:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:11:26 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 15:13:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 15:14:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.24 15:15:47 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:17:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:17:59 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:19:12 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:19:26 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:19:43 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:23:52 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 15:25:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 15:47:40 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 15:48:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.24 15:49:15 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Room.scala[0m
+[0m2021.12.24 15:49:22 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.24 15:50:26 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 15:50:46 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 15:50:58 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+[0m2021.12.24 15:51:32 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\RoomsTable.scala[0m
+[0m2021.12.24 15:53:09 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 15:53:15 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 15:58:20 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.24 15:59:54 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.24 16:01:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:02:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:02:19 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:02:53 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:04:03 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.24 16:04:32 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.24 16:08:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:13:08 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.24 16:13:33 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:14:43 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:16:40 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:16:51 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:18:09 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:18:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.24 16:18:52 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:20:37 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:21:14 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:22:26 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:22:53 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:23:33 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:23:53 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.24 16:24:48 INFO  shutting down Metals[0m
+[0m2021.12.26 12:37:23 INFO  Started: Metals version 0.10.9 in workspace 'D:\Project\Padlet-Time' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.26 12:37:24 INFO  time: initialize in 1.3s[0m
+[0m2021.12.26 12:37:25 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.26 12:37:25 WARN  no build tool detected in workspace 'D:\Project\Padlet-Time'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.12.26 12:37:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 12:37:30 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.26 12:37:33 INFO  time: code lens generation in 7.16s[0m
+[0m2021.12.26 15:03:08 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 15:04:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 15:04:53 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.26 15:05:03 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.26 15:06:15 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 15:06:27 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 15:06:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.26 15:06:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\LinkDao.scala[0m
+[0m2021.12.26 15:21:02 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 15:22:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 15:22:07 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.26 15:22:37 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.26 15:22:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 15:25:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.26 16:36:30 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.26 16:36:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\BaseDao.scala[0m
+[0m2021.12.26 16:46:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.26 16:47:12 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.26 16:47:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 16:48:23 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 16:49:54 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 16:50:33 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 16:50:53 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.26 16:51:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.26 16:52:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.26 16:52:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 16:53:03 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 16:55:31 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 16:56:37 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 16:57:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.26 16:58:03 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.26 16:58:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.26 16:58:58 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.26 19:07:26 INFO  shutting down Metals[0m
+[0m2021.12.27 11:01:05 INFO  Started: Metals version 0.10.9 in workspace 'D:\Project\Padlet-Time' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.27 11:01:06 INFO  time: initialize in 1.21s[0m
+[0m2021.12.27 11:01:07 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.27 11:01:07 WARN  no build tool detected in workspace 'D:\Project\Padlet-Time'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.12.27 11:01:07 WARN  no build target for: D:\Project\Padlet-Time\Server\app\controllers\WebSocketsPadlet.scala[0m
+[0m2021.12.27 11:01:11 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 11:01:12 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.27 11:01:14 INFO  time: code lens generation in 2.53s[0m
+[0m2021.12.27 11:01:14 INFO  time: code lens generation in 6.43s[0m
+[0m2021.12.27 11:01:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 11:02:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.27 11:04:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 11:04:54 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 11:05:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.27 11:06:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 11:07:07 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 11:08:12 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 11:09:40 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 11:10:27 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 11:11:15 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+[0m2021.12.27 11:35:20 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 11:36:12 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 11:36:27 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+[0m2021.12.27 11:36:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+[0m2021.12.27 11:37:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+[0m2021.12.27 11:38:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 11:40:26 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.27 11:40:40 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 11:42:07 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.27 11:42:34 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 11:43:51 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 11:44:19 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.27 11:45:15 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.27 14:56:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 14:56:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\Requester.scala[0m
+[0m2021.12.27 14:56:50 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 14:58:33 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 14:58:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\UserDao.scala[0m
+[0m2021.12.27 15:04:13 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.27 15:04:18 WARN  no build target for: D:\Project\Padlet-Time\Server\build.sbt[0m
+[0m2021.12.27 15:08:36 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 15:10:16 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 15:13:03 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 15:19:06 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\UsersTable.scala[0m
+[0m2021.12.27 15:30:21 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 15:35:13 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 15:59:56 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+Dec 27, 2021 4:01:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2324
+[0m2021.12.27 16:04:00 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 16:04:41 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 16:05:48 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 16:35:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.27 16:38:22 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 16:38:51 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 16:40:47 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 16:40:58 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 16:41:11 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 16:41:47 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 16:42:00 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 16:42:18 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 16:42:36 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 16:43:49 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 16:46:10 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 16:46:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 16:53:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.27 16:59:40 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 17:01:52 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.27 17:01:56 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.27 17:02:18 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\LinksTable.scala[0m
+[0m2021.12.27 17:13:18 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 18:08:34 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.27 18:20:51 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 18:23:26 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 18:25:28 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 18:27:37 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 18:28:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 18:29:16 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 18:50:28 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.27 18:50:39 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.27 20:35:01 INFO  shutting down Metals[0m
+[0m2021.12.28 14:34:44 INFO  Started: Metals version 0.10.9 in workspace 'D:\Project\Padlet-Time' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.28 14:34:46 INFO  time: initialize in 1.14s[0m
+[0m2021.12.28 14:34:46 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.28 14:34:46 WARN  no build tool detected in workspace 'D:\Project\Padlet-Time'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.12.28 14:34:46 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.28 14:34:50 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+Dec 28, 2021 2:34:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+[0m2021.12.28 14:34:53 INFO  time: code lens generation in 5.88s[0m
+[0m2021.12.28 14:36:41 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.28 14:37:13 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.28 14:42:57 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 14:43:34 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 14:44:33 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 14:48:51 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.28 14:49:19 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.28 14:52:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.28 15:01:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.28 15:02:12 WARN  no build target for: D:\Project\Padlet-Time\Server\app\bacht\Store.scala[0m
+[0m2021.12.28 15:04:55 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 15:05:01 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 15:23:58 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.28 16:02:27 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+Dec 28, 2021 4:05:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 59
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 59
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2152)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 59
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)
+	at java.base/java.lang.String.charAt(String.java:712)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.formatting.MultilineString.$anonfun$hasNQuotes$1(MultilineString.scala:104)
+	at scala.runtime.java8.JFunction1$mcZI$sp.apply(JFunction1$mcZI$sp.java:23)
+	at scala.collection.Iterator.forall(Iterator.scala:955)
+	at scala.collection.Iterator.forall$(Iterator.scala:953)
+	at scala.collection.AbstractIterator.forall(Iterator.scala:1431)
+	at scala.collection.IterableLike.forall(IterableLike.scala:77)
+	at scala.collection.IterableLike.forall$(IterableLike.scala:76)
+	at scala.collection.AbstractIterable.forall(Iterable.scala:56)
+	at scala.meta.internal.metals.formatting.MultilineString.hasNQuotes(MultilineString.scala:103)
+	at scala.meta.internal.metals.formatting.MultilineString.onlyFourQuotes(MultilineString.scala:97)
+	at scala.meta.internal.metals.formatting.MultilineString.contribute(MultilineString.scala:383)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$2(OnTypeFormattingProvider.scala:68)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.loop$1(MetalsEnrichments.scala:224)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.acceptFirst(MetalsEnrichments.scala:232)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$1(OnTypeFormattingProvider.scala:67)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.format(OnTypeFormattingProvider.scala:53)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onTypeFormatting$1(MetalsLanguageServer.scala:1430)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.12.28 16:09:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.28 16:12:05 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 16:12:17 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 16:13:58 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\EventHandler.scala[0m
+[0m2021.12.28 16:21:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\models\MediasTable.scala[0m
+[0m2021.12.28 16:22:31 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 16:25:45 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 16:33:29 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.28 16:33:38 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+[0m2021.12.28 16:33:47 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\MediaDao.scala[0m
+Dec 28, 2021 4:34:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2478
+[0m2021.12.28 16:35:26 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+Dec 28, 2021 5:04:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2788
+[0m2021.12.28 17:04:25 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 17:32:06 WARN  no build target for: D:\Project\Padlet-Time\Server\app\database\dao\RoomDao.scala[0m
+[0m2021.12.28 17:34:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 17:36:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.28 17:39:33 INFO  shutting down Metals[0m

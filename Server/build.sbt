@@ -12,7 +12,10 @@ libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0
 libraryDependencies += "org.scala-lang.modules" %% "scala-swing" % "2.1.1"
 libraryDependencies ++= Seq(
   "com.typesafe.slick" %% "slick" % "3.3.3",
-  "com.typesafe.slick" %% "slick-hikaricp" % "3.3.3"
+  "com.typesafe.slick" %% "slick-hikaricp" % "3.3.3",
+  "org.flywaydb"   % "flyway-core"  % "5.0.7",
+  "io.github.nremond" %% "pbkdf2-scala" % "0.6.5",
+  "mysql" % "mysql-connector-java" % "latest.release"
 )
 
 // Adds additional packages into Twirl

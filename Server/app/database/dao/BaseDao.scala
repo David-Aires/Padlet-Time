@@ -1,8 +1,8 @@
-package dao
+package database.dao
 
 
-import config.DatabaseConfig
-import models._
+import database.config.DatabaseConfig
+import database.models._
 import slick.dbio.NoStream
 import slick.lifted.TableQuery
 import slick.sql.{FixedSqlStreamingAction, SqlAction}

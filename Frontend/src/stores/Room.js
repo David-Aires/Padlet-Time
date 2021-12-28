@@ -1,11 +1,14 @@
 import wsStore from "./websockets.js";
 import toastStore from "./toast.js";
-import { writable } from 'svelte/store';
+import { userStore }  from "./Auth.js";
+import { writable, get } from 'svelte/store';
+
 
 const store = writable(undefined);
 
 let roomId;
 let socket;
+
 
 // server to client
 
@@ -17,15 +20,33 @@ wsStore.subscribe((ws) => {
     console.debug("new message : ", message);
 
     switch (message.event) {
+      case "login_user":
+        if(message.token == "false") {
+          toastStore.set("mot de passe incorrect")
+        } else if(message.token == "failure") {
+          toastStore.set("utilisateur inexistant!")
+        } else {
+          userStore.set({id: message.id, pseudo: message.username, token: message.token})
+        }
+        break;
+      case "create_user":
+        if(message.token == "failure") {
+          toastStore.set("erreur lors de la création de l'utilisateur")
+        } else {
+          userStore.set({id: message.id, pseudo: message.username, token: message.token})
+        }
+        break;
       // Room related event
       case "enter_room":
-        store.set({ id: message.room, cards: message.cards });
+        console.log('enter_room')
+        store.set({ id: message.room, cards: message.cards});
         break;
 
       // Cards related event
       case "created_card":
+        console.log("création de carte");
         store.update(room => {
-          return { id: room.id, cards: [...room.cards, message.card] };
+          return { id: room.id, cards: [...room.cards, message.card]};
         });
         break;
       case "deleted_card":
@@ -37,6 +58,7 @@ wsStore.subscribe((ws) => {
         });
         break;
       case "modified_card":
+        console.log("test modified card")
         store.update(room => {
           if (room && room.cards)
             return {
@@ -68,18 +90,20 @@ wsStore.subscribe((ws) => {
 
 // Client to server
 
-function createRoom() {
+function createRoom(name) {
   console.debug("create_room", socket.readyState);
   if (socket.readyState)
-    socket.send(JSON.stringify({ event: "create_room" }));
+    socket.send(JSON.stringify({ event: "create_room", user_id: get(userStore).id, name:name}));
 }
 
-function joinRoom(id) {
+function joinRoom(name) {
   console.debug("join_room", socket.readyState);
-  if (socket.readyState)
-    socket.send(JSON.stringify({ event: "join_room", id }));
-  else socket.onopen = () =>
-    socket.send(JSON.stringify({ event: "join_room", id }));
+  if (socket.readyState) {
+    socket.send(JSON.stringify({ event: "join_room", user_id: get(userStore).id, name: name }));
+  } else socket.onopen = () => {
+    console.log(roomId)
+    socket.send(JSON.stringify({ event: "join_room", name:name, user_id:get(userStore).id }));
+  }
 }
 
 function leaveRoom() {
@@ -93,7 +117,7 @@ function leaveRoom() {
 function newCard() {
   console.debug("new_card", socket.readyState);
   if (socket.readyState)
-    socket.send(JSON.stringify({ event: "new_card" }));
+    socket.send(JSON.stringify({ event: "new_card", name:roomId, user_id: get(userStore).id }));
 }
 
 function updateCard(card) {
@@ -108,11 +132,35 @@ function deleteCard(id) {
     socket.send(JSON.stringify({ event: "delete_card", id }));
 }
 
+function createUser(username, password) {
+  console.debug("create_user", socket.readyState);
+  if (socket.readyState)
+    socket.send(JSON.stringify({ event: "create_user", user: {username: username, password: password}}));
+}
+
+function loginUser(username, password) {
+  console.debug("login_user", socket.readyState);
+  if (socket.readyState)
+    socket.send(JSON.stringify({ event: "login_user", user: {username: username, password: password}}));
+}
+
+function addUser(username) {
+  console.debug("add_user", socket.readyState);
+  if (socket.readyState)
+    socket.send(JSON.stringify({ event: "add_user", id:roomId, name:username}));
+}
+
+
+
+
 export default {
   subscribe: store.subscribe,
   set: store.set,
   create: createRoom,
+  register : createUser,
+  login: loginUser,
   join: joinRoom,
+  add: addUser,
   leave: leaveRoom,
   cards: {
     add: newCard,

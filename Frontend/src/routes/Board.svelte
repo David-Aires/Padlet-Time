@@ -122,15 +122,19 @@
 <main>
     <div id="app-container">
         <header>
-            <h1>
+            <h1 on:click={() => navigate('/choice', { replace: true })}>
                 <Fa icon={faClone} size="sm" />
-        Padlet Time
+                Padlet Time
             </h1>
             <nav>
                 <div on:click={() => sidebar_show = !sidebar_show}>
                     <Fa icon={faPlus} size="sm"/>
                     <span>Actions</span>
                 </div>
+                <div on:click={logout}>
+                  <Fa icon={faPowerOff} size="sm"/>
+                  <span>Logout</span>
+              </div>
             </nav>
         </header>
         <div class="container">
@@ -149,13 +153,15 @@
     
 <script>
     import Fa from 'svelte-fa';
-    import {faClone, faPlus } from '@fortawesome/free-solid-svg-icons';
+    import {faClone, faPlus, faPowerOff } from '@fortawesome/free-solid-svg-icons';
     import Sidebar from '../components/Sidebar.svelte';
     import Postit from "../components/Postit.svelte"
     import room from "../stores/Room.js";
     import { onMount, onDestroy } from "svelte";
     import {navigate} from "svelte-routing";
+    import { userStore } from '../stores/Auth';
 
+    $: $userStore.token == ''? navigate("/", { replace: true }):'';
 
     onMount(() => {
     // If room does not exist, go back to home page
@@ -171,6 +177,10 @@
         room.leave();
       }
     });
+
+    const logout = () => {
+      userStore.set({id: 0, pseudo: '', token: ''});
+    }
 
     let sidebar_show = false;
 </script>

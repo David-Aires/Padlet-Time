@@ -2,62 +2,66 @@ package bacht
 
 import scala.collection.mutable.Map
 import scala.swing._
-import components.Card
+import akka.actor.ActorRef
+import database.models.definition.RoomId
 
 class BachTStore {
 
-   var theStore = Map[String,Int]()
+   var theStore = Map[ActorRef,RoomId]()
 
-   def tell(token:String):Boolean = {
-      if (theStore.contains(token)) 
-        { theStore(token) = theStore(token) + 1 }
-      else
-        { theStore = theStore ++ Map(token -> 1) }
+   def tell(requester:ActorRef, roomId : RoomId):Boolean = {
+      if (!theStore.contains(requester)) 
+        { theStore = theStore ++ Map(requester -> roomId) }
       true
    }
 
 
-   def ask(token:String):Boolean = {
-      if (theStore.contains(token)) 
-             if (theStore(token) >= 1) { true }
-             else { false }
+   def ask(requester: ActorRef):Boolean = {
+      if (theStore.contains(requester)) 
+             {true}
       else false
    }
 
+   def get(requester: ActorRef):Option[RoomId] = {
+      theStore.get(requester)
+   }
 
-   def get(token:String):Boolean = {
-      if (theStore.contains(token)) 
-             if (theStore(token) >= 1) 
-               { theStore(token) = theStore(token) - 1 
-                 true 
-               }
-             else { false }
-      else false
+   def getAll(roomId: RoomId):List[ActorRef] = {
+     val result = theStore.filter(x => x._2 == roomId)
+     result.keys.toList
+   }
+
+   def delete(requester: ActorRef): Boolean = {
+      theStore -= requester
+      if(theStore.contains(requester)) {
+         false
+      } else {
+         true
+      }
    }
 
 
-   def nask(token:String):Boolean = {
-      if (theStore.contains(token)) 
-             if (theStore(token) >= 1) { false }
-             else { true }
+   def nask(requester:ActorRef):Boolean = {
+      if (theStore.contains(requester)) 
+             { false }
       else true 
    }
 
-   def print_store {
+   def print_store():Unit = {
       print("{ ")
       for ((t,d) <- theStore) 
          print ( t + "(" + theStore(t) + ")" )
       println(" }")
    }
 
-   def clear_store {
-      theStore = Map[String,Int]()
+   def clear_store(): Unit = {
+      theStore = Map[ActorRef,RoomId]()
    }
 
 }
 
-object bb extends BachTStore {
+object Store extends BachTStore {
 
-   def reset { clear_store }
+   def reset():Unit = { clear_store() }
 
 }
