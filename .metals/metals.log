@@ -940,3 +940,11 @@ WARNING: Unmatched cancel notification for request id 2788
 [0m2021.12.28 17:34:35 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
 [0m2021.12.28 17:36:44 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
 [0m2021.12.28 17:39:33 INFO  shutting down Metals[0m
+[0m2021.12.30 18:19:44 INFO  Started: Metals version 0.10.9 in workspace 'D:\Project\Padlet-Time' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.30 18:19:45 INFO  time: initialize in 1.15s[0m
+[0m2021.12.30 18:19:46 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.30 18:19:46 WARN  no build tool detected in workspace 'D:\Project\Padlet-Time'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.12.30 18:19:47 WARN  no build target for: D:\Project\Padlet-Time\Server\app\actors\RoomEvent.scala[0m
+[0m2021.12.30 18:19:51 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.30 18:19:54 INFO  time: code lens generation in 6.41s[0m
+[0m2021.12.30 18:30:19 INFO  shutting down Metals[0m
